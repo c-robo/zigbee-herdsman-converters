@@ -4788,6 +4788,13 @@ export const definitions: DefinitionWithExtend[] = [
         extend: [philips.m.light({colorTemp: {range: [153, 500]}, color: {modes: ["xy", "hs"], enhancedHue: true}})],
     },
     {
+    zigbeeModel: ['LCD018'],
+    model: '046677609405',
+    vendor: 'Philips',
+    description: 'Hue White and color ambiance Slim Downlight 4 inch',
+    extend: [philips.m.light({"colorTemp":{"range":[50,1000]},"color":{"modes":["xy","hs"],"enhancedHue":true}})],
+    };
+    {
         zigbeeModel: ["LCV001"],
         model: "929003151501",
         vendor: "Philips",
